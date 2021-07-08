@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/sign_in.css">
+    <title>VEGAN FREEDOM</title>
+</head>
+<body>
+    <nav>
+        <div class="top"></div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="index.html">LOGO</a></li>
+            <li><a href="../">EVENTS</a></li>
+            <li><a href="../php/sign_in.php">SIGN IN</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <form class="registration" action="sign_in.php" method="POST">
+            <h1>Registriere Dich</h1>
+            <input type="hidden" name="registration" value="1">
+            <input type="text" name="name" id="name" placeholder="Your Full Name">
+            <label for="name"></label>
+            <input type="text" name="nickname" id="nickname" placeholder="Your Nickname">
+            <label for="nickname"></label>
+            <input type="email" name="email" id="email" placeholder="Enter Your e-Mail">
+            <label for="email"></label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            <label for="password"></label>
+            <input type="password" name="pswd" id="pswd" placeholder="Repeat Your Password">
+            <label for="password"></label>
+            <button class="btn">Registrieren</button>
+        </form>
+
+        <form class="login" action="sign_in.php" method="POST">
+            <h1>Log In</h1>
+            <input type="hidden" name="login" value="1">
+            <input type="text" name="nickname" placeholder="Nickname">
+            <label for="text"></label>
+            <input type="password" name="kennwort"placeholder="Enter Your Password">
+            <button class="btn">Log In</button>
+        </form>
+    </div>  
+
+    <footer>
+
+    </footer>
+    <div class="bottom"></div>
+
+</body>
+</html>

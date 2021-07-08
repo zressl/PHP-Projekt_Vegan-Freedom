@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row .registration{
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid grey;
+    margin: 20vh;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row .registration input{
+    border: solid 1px green;
+    border-radius: 9px;
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    margin: 6vh 5vw 0 auto;
+}
+
+.row .registration .btn{
+    background: #236d1c;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 9px;
+    border: transparent;
+    color: whitesmoke;
+    margin: 8vh 12.5vw 0 auto;
+}
+
+.geschafft{
+    color: #97b92f;
+}
+
+/* Log In */
+
+.row .login{
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid grey;
+    margin: 20vh;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row .login input{
+    border: solid 1px green;
+    border-radius: 9px;
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    margin: 6vh 5vw 0 auto;
+}
+
+.row .login .btn{
+    background: #236d1c;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 9px;
+    border: transparent;
+    color: whitesmoke;
+    margin: 8vh 1vw 0 auto;
+}
+
+form h1{
+    padding: 2vh;
+}
+.has_error{
+    border: solid red 2px !important;
+}
+.error_message{
+    color: red;
+    text-align: start;
+    margin-left: 8vh;
+    padding-top: 5px;
+}
